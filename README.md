@@ -51,3 +51,25 @@ Para rodar os testes, rode o seguinte comando
 - [X]  Sistema anti Crash nativo
 - [ ]  Suporte a Traduções
 - [ ]  Integração com sistema de votos
+
+## Arquivo de configuração
+
+```bash
+{	
+	"beta" : true,
+	"token_beta": "TOKEN BOT DE TESTES",
+	"token" :"TOKEN BOT PRINCIPAL",
+	"owner": "ID DO DONO",
+	"client_id_beta": "ID BOT DE TESTES",
+	"client_id": "ID BOT PRINCIPAL",
+	"test_guild_id": "ID DO SERVIDOR DE TESTES",
+	"dbConnection": {
+		"host": "IP DA DATABASE", 
+		"user": "Usuario da DATABASE",
+		"password": "SENHA DA DATABASE",
+		"database": "NOME DA DATABASE"
+	},
+	"git_token" : "TOKEN DO GIST
+	"topgg_auth" : "TOKEN DO TOP.GG
+}
+```
