@@ -69,7 +69,7 @@ Para rodar os testes, rode o seguinte comando
 		"password": "SENHA DA DATABASE",
 		"database": "NOME DA DATABASE"
 	},
-	"git_token" : "TOKEN DO GIST
-	"topgg_auth" : "TOKEN DO TOP.GG
+	"git_token" : "TOKEN DO GIST",
+	"topgg_auth" : "TOKEN DO TOP.GG"
 }
 ```
