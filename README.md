@@ -17,7 +17,7 @@ Lembre-se de ler as seguintes documentações para te ajudar!
 
 #### Porque usar essa base e não outras?
 
-Nosso template da suporte a fragmentação ideal para Bots grandes e verificiados diferente de vários outros por ai.
+Nosso template da suporte a fragmentação ideal para Bots grandes e verificados diferente de vários outros por ai.
 
 #### Algum bot Importante usa essa base?
 
