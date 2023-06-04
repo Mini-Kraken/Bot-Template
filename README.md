@@ -50,7 +50,6 @@ Para rodar os testes, rode o seguinte comando
 - [X]  Sistema de Detecção de Erros & Depuração de Bugs
 - [X]  Sistema anti Crash nativo
 - [X]  Suporte a Traduções
-- [X]  Integração com sistema de votos
 - [X]  Sistema de Cache
 ## Arquivo de configuração
 
