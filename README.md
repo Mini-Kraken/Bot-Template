@@ -11,7 +11,7 @@ Lembre-se de ler as seguintes documentações para te ajudar!
 
 - [Discord.JS](https://discord.js.org)
 - [API discord](https://discord.com/developers/docs/intro)
-- [Mini Kraken](https://minikrakne.tk)
+- [Mini Kraken](https://minikraken.tk)
 
 ## FAQ
 
