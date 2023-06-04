@@ -28,7 +28,7 @@ if (!fs.existsSync(symlinkPath)) {
 const { ShardingManager } = require("discord.js");
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v10");
-const { beta, token, token_beta, client_id, client_id_beta, test_guild_id, taverna } = require("app/config.json");
+const { beta, token, token_beta, client_id, client_id_beta, test_guild_id} = require("app/config.json");
 const login_token = beta ? token_beta : token;
 const login_client_id = beta ? client_id_beta : client_id;
 const { terminal_color } = require("app/global.json");
@@ -86,10 +86,6 @@ const localOnlyCommandJsonData = [
 			{ body: commandJsonData }
 		);
 
-		await restGlobal.put(
-			Routes.applicationGuildCommands(client_id, taverna),
-			{ body: localOnlyCommandJsonData }
-		);
 
         console.log(`${terminal_color.bg} Sistema ${terminal_color.online} Comandos Atualizados Localmente! ${terminal_color.reset} `);
 
