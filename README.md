@@ -5,24 +5,23 @@ Trata-se de um Template/Framework para facilitar a estruturar de bots em Discord
 
 ![App Screenshot](https://raw.githubusercontent.com/Mini-Kraken/Bot-Template/main/banner.png)
 
-
 ## Referência
-Lembre-se de ler as seguintes documentações para te ajudar!
- - [Discord.JS](https://discord.js.org)
- - [API discord](https://discord.com/developers/docs/intro)
- - [Mini Kraken](https://minikrakne.tk)
 
+Lembre-se de ler as seguintes documentações para te ajudar!
+
+- [Discord.JS](https://discord.js.org)
+- [API discord](https://discord.com/developers/docs/intro)
+- [Mini Kraken](https://minikrakne.tk)
 
 ## FAQ
 
-#### Porque usar essa base e não outras?
+### Porque usar essa base e não outras?
 
 Nosso template da suporte a fragmentação ideal para Bots grandes e verificados diferente de vários outros por ai.
 
 #### Algum bot Importante usa essa base?
 
 Sim, essa base é usada pelo Mini Kraken o maior bot de rpg de mesa brasileiro!
-
 
 ## Feedback & Suporte
 
@@ -35,7 +34,6 @@ Para rodar os testes, rode o seguinte comando
 ```bash
   npm run start
 ```
-
 
 ## Funcionalidades
 
@@ -50,25 +48,27 @@ Para rodar os testes, rode o seguinte comando
 - [X]  Sistema anti Crash nativo
 - [X]  Suporte a Traduções
 - [X]  Sistema de Cache
+
 ## Arquivo de configuração
 
 ```bash
-{	
-	"beta" : true,
-	"token_beta": "TOKEN BOT DE TESTES",
-	"token" :"TOKEN BOT PRINCIPAL",
-	"owner": "ID DO DONO",
-	"client_id_beta": "ID BOT DE TESTES",
-	"client_id": "ID BOT PRINCIPAL",
-	"test_guild_id": "ID DO SERVIDOR DE TESTES",
-	"dbConnection": {
-		"host": "IP DA DATABASE", 
-		"user": "Usuario da DATABASE",
-		"password": "SENHA DA DATABASE",
-		"database": "NOME DA DATABASE"
-	},
-	"git_token" : "TOKEN DO GIST",
-	"topgg_auth" : "TOKEN DO TOP.GG"
+{ 
+ "beta" : true,
+ "token_beta": "TOKEN BOT DE TESTES",
+ "token" :"TOKEN BOT PRINCIPAL",
+ "owner": "ID DO DONO",
+ "client_id_beta": "ID BOT DE TESTES",
+ "client_id": "ID BOT PRINCIPAL",
+ "test_guild_id": "ID DO SERVIDOR DE TESTES",
+ "dbConnection": {
+  "host": "IP DA DATABASE", 
+  "user": "Usuario da DATABASE",
+  "password": "SENHA DA DATABASE",
+  "database": "NOME DA DATABASE"
+ },
+ "git_token" : "TOKEN DO GIST",
+ "topgg_auth" : "TOKEN DO TOP.GG"
 }
 ```
-#### essa base foi inspirada e estrutura em cima da base [DiscordBot-Template](https://github.com/NamVr/DiscordBot-Template)
+
+### essa base foi inspirada e estrutura em cima da base [DiscordBot-Template](https://github.com/NamVr/DiscordBot-Template)
