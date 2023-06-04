@@ -1,0 +1,28 @@
+{
+    "default": {
+        "title": "Oops! the command is not available",
+        "desc" : "Oops! Something went wrong! Try again later.",
+        "field_name": "We apologize for the inconvenience.",
+        "field_value": "If the problem persists, contact the [support.](https://discord.gg/Nm3CypkQaq)"
+    },
+    "pt-BR" : {
+        "title": "Ops! Algo deu errado",    
+        "desc" : "Eita que deu ruim! Tente novamente mais tarde.",
+        "field_name": "Pedimos desculpas pelo transtorno.",
+        "field_value": "Se o problema persistir, entre em contato com o [suporte.](https://discord.gg/Nm3CypkQaq)"
+
+    },
+    "es-Es" : {
+        "title": "¡Ups! El comando no está disponible",
+        "desc" : "¡Ups! Algo salió mal. Inténtalo de nuevo más tarde.",
+        "field_name": "Pedimos disculpas por las molestias.",
+        "field_value": "Si el problema persiste, comuníquese con el [soporte.](https://discord.gg/Nm3CypkQaq)"
+    },
+    "ru" : 
+    {
+        "title": "Упс! Команда недоступна",
+        "desc" : "Упс! Что-то пошло не так. Попробуйте еще раз позже.",
+        "field_name": "Приносим свои извинения за неудобства.",
+        "field_value": "Если проблема не устранена, обратитесь в [службу поддержки.](https://discord.gg/Nm3CypkQaq)"
+    }
+}
