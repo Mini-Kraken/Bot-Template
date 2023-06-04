@@ -1,11 +1,4 @@
 /**
- * @file Sample autocomplete interaction
- * @author Naman Vrati
- * @since 3.3.0
- * @version 3.3.0
- */
-
-/**
  * @type {import("../../../typings").AutocompleteInteraction}
  */
 module.exports = {

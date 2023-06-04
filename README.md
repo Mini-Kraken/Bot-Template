@@ -28,7 +28,6 @@ Sim, essa base é usada pelo Mini Kraken o maior bot de rpg de mesa brasileiro!
 
 Se você tiver algum feedback, por favor nos deixe saber por meio do nosso servidor do [Discord](https://discord.com/invite/Nm3CypkQaq)
 
-
 ## Inicializando o bot
 
 Para rodar os testes, rode o seguinte comando
@@ -72,3 +71,4 @@ Para rodar os testes, rode o seguinte comando
 	"topgg_auth" : "TOKEN DO TOP.GG"
 }
 ```
+#### essa base foi inspirada e estrutura em cima da base [DiscordBot-Template](https://github.com/NamVr/DiscordBot-Template)

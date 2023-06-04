@@ -1,11 +1,4 @@
 /**
- * @file Sample button interaction
- * @author Naman Vrati
- * @since 3.0.0
- * @version 3.2.2
- */
-
-/**
  * @type {import('app/typings').ButtonInteractionCommand}
  */
 module.exports = {
