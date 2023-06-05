@@ -91,7 +91,6 @@ for (const file of eventFiles) {
 	client.on(
 		event.name,
 		async(...args) => {
-			console.log(`ok, evento ${event.name} recebido`)
 			try {
 				return await event.execute(...args, client);
 			} catch (err) {
@@ -109,7 +108,6 @@ for (const file of eventFiles) {
 		}
 	);
 }
-console.log(client.eventNames())
 
 /**********************************************************************/
 // Define as Coleções de Comandos, Comandos Slash
