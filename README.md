@@ -43,7 +43,7 @@ Para rodar os testes, rode o seguinte comando
 - [X]  Sistema de Dropdown
 - [X]  Sistema de Modals
 - [X]  Sistema de Auto Completar
-- [X]  Estruturação com Suporte a Fragmentação
+- [X]  Estruturação com Suporte a Shards
 - [X]  Sistema de Detecção de Erros & Depuração de Bugs
 - [X]  Sistema anti Crash nativo
 - [X]  Suporte a Traduções
@@ -56,18 +56,9 @@ Para rodar os testes, rode o seguinte comando
  "beta" : true,
  "token_beta": "TOKEN BOT DE TESTES",
  "token" :"TOKEN BOT PRINCIPAL",
- "owner": "ID DO DONO",
  "client_id_beta": "ID BOT DE TESTES",
  "client_id": "ID BOT PRINCIPAL",
- "test_guild_id": "ID DO SERVIDOR DE TESTES",
- "dbConnection": {
-  "host": "IP DA DATABASE", 
-  "user": "Usuario da DATABASE",
-  "password": "SENHA DA DATABASE",
-  "database": "NOME DA DATABASE"
- },
- "git_token" : "TOKEN DO GIST",
- "topgg_auth" : "TOKEN DO TOP.GG"
+ "test_guild_id": "ID DO SERVIDOR DE TESTES"
 }
 ```
 
