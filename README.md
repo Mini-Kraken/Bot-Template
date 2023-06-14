@@ -32,7 +32,7 @@ Se você tiver algum feedback, por favor nos deixe saber por meio do nosso servi
 Para rodar os testes, rode o seguinte comando
 
 ```bash
-  npm run start
+npm run start
 ```
 
 ## Funcionalidades
@@ -50,8 +50,8 @@ Para rodar os testes, rode o seguinte comando
 - [X]  Sistema de Cache
 
 ## Arquivo de configuração
-
-```bash
+Crie um arquivo com o nome `config.json`, copie e cole o código abaixo:
+```json
 { 
  "beta" : true,
  "token_beta": "TOKEN BOT DE TESTES",
@@ -61,5 +61,11 @@ Para rodar os testes, rode o seguinte comando
  "test_guild_id": "ID DO SERVIDOR DE TESTES"
 }
 ```
+`beta`: É o switch ente um bot de testes e o bot principal. Para ligar no bot de testes, deixe `true`, para ligar o bot oficial, deixe `false`.
+`token_beta`: O token do bot de testes
+`token`: O token do bot principal
+`client_id_beta`: O client id do bot de testes
+`client_id`: O client id do bot principal
+`test_guild_id`: O ID do seu servidor de testes. É onde os comandos locais serão lançados antes de irem pro global
 
-### essa base foi inspirada e estrutura em cima da base [DiscordBot-Template](https://github.com/NamVr/DiscordBot-Template)
+### Essa base foi inspirada e estruturada em cima da base [DiscordBot-Template](https://github.com/NamVr/DiscordBot-Template)
