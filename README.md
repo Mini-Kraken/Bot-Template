@@ -61,11 +61,11 @@ Crie um arquivo com o nome `config.json`, copie e cole o código abaixo:
  "test_guild_id": "ID DO SERVIDOR DE TESTES"
 }
 ```
-`beta`: É o switch ente um bot de testes e o bot principal. Para ligar no bot de testes, deixe `true`, para ligar o bot oficial, deixe `false`.
-`token_beta`: O token do bot de testes
-`token`: O token do bot principal
-`client_id_beta`: O client id do bot de testes
-`client_id`: O client id do bot principal
-`test_guild_id`: O ID do seu servidor de testes. É onde os comandos locais serão lançados antes de irem pro global
+- `beta`: É o switch ente um bot de testes e o bot principal. Para ligar no bot de testes, deixe `true`, para ligar o bot oficial, deixe `false`.
+- `token_beta`: O token do bot de testes
+- `token`: O token do bot principal
+- `client_id_beta`: O client id do bot de testes
+- `client_id`: O client id do bot principal
+- `test_guild_id`: O ID do seu servidor de testes. É onde os comandos locais serão lançados antes de irem pro global
 
 ### Essa base foi inspirada e estruturada em cima da base [DiscordBot-Template](https://github.com/NamVr/DiscordBot-Template)
