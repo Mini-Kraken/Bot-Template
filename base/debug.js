@@ -30,7 +30,7 @@ function bugMessage(interaction, err) {
         value: translation.field_value,
         inline: false,
     }])
-    .setThumbnail("https://mini-kraken.github.io/marketing/emoji/chorando.png")
+    .setThumbnail("https://rpg.arkanus.app/img/icons/chorando.png")
     return embed
 }
 /**

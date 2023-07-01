@@ -1,13 +1,10 @@
 import * as Discord from "discord.js";
 import * as NodeCache from "node-cache";
-import RpgSystemJson from 'app/rpg_systems_config/official/1.json';
 
 export module "*.js" {
 	var value: any;
 	export = value;
 }
-
-export type RpgSystem = typeof RpgSystemJson
 
 export interface Interaction extends Discord.Interaction {
 	client: Client
@@ -174,11 +171,11 @@ export interface AutocompleteInteraction {
 export interface ServerInfo {
 	rpgSystem: number
 	isCustomRpgSystem: boolean
-	money_name: ?string
-	money_symbol: ?string
-	gameMasterId: ?number
-	table_money_symbol: ?string
-	iniciativa: ?string
+	money_name: string
+	money_symbol: string
+	gameMasterId: number
+	table_money_symbol: string
+	iniciativa: string
 	premium: boolean
 }
 
@@ -186,57 +183,6 @@ export interface Ficha {
   	card: object,
   	dices: object,
   	expertises: object
-}
-
-export interface CacheServerInfo extends Cache {
-	_getCallback: CallbacksServerInfo["get"];
-	_setCallback: CallbacksServerInfo["set"];
-	async get: CallbacksServerInfo["get"];
-	set: CallbacksServerInfo["set"];
-	constructor(
-		options: NodeCache.Options | undefined, 
-		getCallback: CallbacksServerInfo["get"], 
-		setCallback: CallbacksServerInfo["set"]
-	): CacheServerInfo;
-}
-
-export interface CacheFicha extends Cache {
-	_getCallback: CallbacksFicha["get"];
-	_setCallback: CallbacksFicha["set"];
-	async get: CallbacksFicha["get"];
-	set: CallbacksFicha["set"];
-	constructor(
-		options: NodeCache.Options | undefined, 
-		getCallback: CallbacksFicha["get"], 
-		setCallback: CallbacksFicha["set"]
-	): CacheFicha;
-}
-
-export interface CacheSistemasCustom extends Cache {
-	_getCallback: CallbacksSistemasCustom["get"];
-	_setCallback: CallbacksSistemasCustom["set"];
-	async get: CallbacksSistemasCustom["get"];
-	set: CallbacksSistemasCustom["set"];
-	constructor(
-		options: NodeCache.Options | undefined, 
-		getCallback: CallbacksSistemasCustom["get"], 
-		setCallback: CallbacksSistemasCustom["set"]
-	): CacheSistemasCustom;
-}
-
-interface CallbacksServerInfo {
-	async get (serverId: string): Promise<ServerInfo>;
-	async set (serverId: string, value: number|string, type: "rpgSystem"|"isCustomRpgSystem"|"money_name"|"money_symbol"|"gameMasterId"|"table_money_symbol"|"iniciativa"): Promise<ServerInfo>;
-}
-
-interface CallbacksFicha {
-	async get (serverMemberId: string): Promise<Ficha>;
-	async set (serverMemberId: string, value: number|string, slot: number, type: "dice"|"attribute"|"expertise"): Promise<Ficha>;
-}
-
-interface CallbacksSistemasCustom {
-	async get (serverId: string, rpgSystem: number): Promise<RpgSystem>;
-	async set (serverId: string, json: string, rpgSystem: number): Promise<RpgSystem>;
 }
 
 interface Callbacks {
@@ -316,13 +262,6 @@ export interface Client extends Discord.Client {
 	 * Represents a collection of autocomplete interactions.
 	 */
 	autocompleteInteractions: Discord.Collection<string, AutocompleteInteraction>;
-
-
-	cache: {
-		serverInfo: CacheServerInfo
-		customSystems: CacheSistemasCustom
-		ficha: CacheFicha
-	};
 	
 }
 

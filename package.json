@@ -6,7 +6,8 @@
 	"types": "./typings.d.ts",
 	"main": "shards.js",
 	"scripts": {
-		"start": "node shards.js"
+		"start": "node shards.js",
+		"slash_deploy": "node base/update_commands.js"
 	},
 	"keywords": [
 		"discord-js"
